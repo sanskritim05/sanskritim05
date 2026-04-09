@@ -1,6 +1,6 @@
 # Hi, I'm Sanskriti 👋
 
-CS + Cognitive Science student at Rutgers University, graduating May 2026. I build AI systems that solve real problems — from agentic medical research tools to RAG pipelines and computer vision models.
+CS + Cognitive Science student at Rutgers University, graduating May 2026. I build AI systems that solve real problems, from agentic medical research tools to RAG pipelines and computer vision models.
 
 Currently interning as a Software Engineering Intern at Universal Selfcare, doing research at the Aresty Research Center, and wrapping up an AI/ML Fellowship at Cornell Tech (Break Through Tech).
 
