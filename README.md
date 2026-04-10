@@ -1,4 +1,4 @@
-# hey, I'm Sanskriti 👋
+# Hey, I'm Sanskriti 👋
 
 > CS + Cognitive Science @ Rutgers · graduating May 2026  
 > building AI systems at the intersection of language models, healthcare, and human understanding
