@@ -120,9 +120,6 @@ Journal app that reads your mood and queues up movies + songs to match
 2025 ──── Rutgers Food Innovation     Extern
            lead-scoring app that cut review time by ~60%; integrated Teams + HubSpot APIs
 
-2025 ──── Rutgers Learning Center     Learning Assistant
-           helping 20+ students with Data Structures and Calculus
-           (turns out explaining things is the best way to understand them)
 ```
 
 ---
