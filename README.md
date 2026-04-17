@@ -13,6 +13,24 @@ I'm drawn to the overlap between AI and healthcare, building systems that make c
 <tr>
 <td width="50%">
 
+**🧠 [IntelSwarm](https://github.com/sanskritim05/intelswarm)**
+`agentic ai` `multi-agent systems`
+
+Multi-agent swarm that generates company intelligence reports across product, hiring, funding, news, and culture using parallel agents.
+
+`Python` `FastAPI` `Strands Agents` `Ollama` `React` 
+
+</td>
+<td width="50%">
+
+&nbsp;
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
 **🤖 [Medical Literature Research Agent](https://github.com/sanskritim05/medical-literature-research-agent)**
 `agentic ai`
 
@@ -28,19 +46,20 @@ Ask a clinical question → sourced, confidence-scored answer pulled from PubMed
 
 Drop in a PDF, ask anything, answers come back with exact page citations
 
-`Python` `LangChain` `ChromaDB` `React` `FastAPI`
+`Python` `LangChain` `ChromaDB` `React`
 
 </td>
 </tr>
+
 <tr>
 <td width="50%">
 
 **🏥 [Clinical Risk Prediction](https://github.com/sanskritim05/clinical-risk-prediction-calibrated)**
 `ml`
 
-30-day hospital readmission risk with calibrated probabilities + SHAP so you can actually understand why
+30-day hospital readmission risk with calibrated probabilities + SHAP explainability
 
-`Python` `Scikit-learn` `SHAP` `FastAPI` `React`
+`Python` `Scikit-learn` `FastAPI` `React`
 
 </td>
 <td width="50%">
@@ -48,19 +67,20 @@ Drop in a PDF, ask anything, answers come back with exact page citations
 **📋 [Clinical Note Simplifier](https://github.com/sanskritim05/clinical-note-simplifier)**
 `nlp`
 
-Turns doctor-speak into language patients can actually read, with readability scoring
+Turns doctor-speak into patient-friendly language with readability scoring
 
 `Python` `FastAPI` `Groq`
 
 </td>
 </tr>
+
 <tr>
 <td width="50%">
 
 **🗂 [Insurance Claims ETL Pipeline](https://github.com/sanskritim05/insurance-claims-etl-pipeline)**
 `data engineering`
 
-Raw CMS Medicare data → star-schema SQLite warehouse → Streamlit insights dashboard, end to end
+CMS Medicare data → SQLite warehouse → analytics dashboard
 
 `Python` `SQLite` `Streamlit`
 
@@ -70,19 +90,20 @@ Raw CMS Medicare data → star-schema SQLite warehouse → Streamlit insights da
 **💄 [Sephora Skincare Sentiment Analysis](https://github.com/sanskritim05/sephora-skincare-reviews-sentiment-worth-it-analysis)**
 `nlp`
 
-Bayesian-smoothed sentiment + a custom "Worth It Score" to cut through review noise
+Sentiment analysis with Bayesian smoothing + "Worth It Score"
 
 `Python` `NLP` `Jupyter`
 
 </td>
 </tr>
+
 <tr>
 <td width="50%">
 
 **🗺 [Landmark Classification for Social Media](https://github.com/sanskritim05/landmark-classification-tagging-for-social-media-project)**
 `computer vision`
 
-CNN classifier that tags landmarks in photos when there's no GPS data to lean on
+CNN-based landmark classifier for images without GPS metadata
 
 `Python` `PyTorch`
 
@@ -92,12 +113,13 @@ CNN classifier that tags landmarks in photos when there's no GPS data to lean on
 **📱 [OnceUponAMood](https://github.com/sanskritim05/OnceUponAMood)**
 `ios`
 
-Journal app that reads your mood and queues up movies + songs to match
+Mood-based journaling app that recommends movies and music
 
 `Swift` `CoreML`
 
 </td>
 </tr>
+
 </table>
 
 ---
