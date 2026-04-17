@@ -13,7 +13,7 @@ I'm drawn to the overlap between AI and healthcare, building systems that make c
 <tr>
 <td width="50%">
 
-**🧠 [IntelSwarm](https://github.com/sanskritim05/intelswarm)**
+**🧠 [IntelSwarm](https://github.com/sanskritim05/IntelSwarm)**
 `agentic ai` `multi-agent systems`
 
 Multi-agent swarm that generates company intelligence reports across product, hiring, funding, news, and culture using parallel agents.
