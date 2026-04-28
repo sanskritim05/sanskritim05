@@ -6,86 +6,137 @@
 ---
 
 ## 🛠️ Things I've Built
+
 <table>
 <tr>
 <td width="50%" valign="top">
-🧠 IntelSwarm
-agentic ai · multi-agent systems
-Multi-agent swarm that generates company intelligence reports across product, hiring, funding, news, and culture using parallel specialist agents.
-Python FastAPI Strands Agents Ollama React
+
+**🧠 [Patient Intake Summarization](https://github.com/sanskritim05/patient-intake-summarization)**
+`agentic ai` · `multi-agent systems`
+
+Multi-agent pipeline that transforms raw patient intake submissions into structured clinician summaries. Routes incomplete intakes to a flagged path listing missing fields, skipping symptom organization entirely.
+
+`Python` `Strands Agents` `Ollama`
+
 </td>
 <td width="50%" valign="top">
-🤖 Medical Literature Research Agent
-agentic ai
-Ask a clinical question and get a sourced, confidence-scored answer pulled from PubMed and ClinicalTrials.gov.
-Python LangGraph FastAPI Groq
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-🏠 Real Estate RAG Assistant
-rag
-Upload a real estate PDF, ask anything, and get answers back with exact page citations.
-Python LangChain ChromaDB React
-</td>
-<td width="50%" valign="top">
-🏥 Clinical Risk Prediction
-ml
-30-day hospital readmission risk model with calibrated probabilities and SHAP explainability.
-Python Scikit-learn FastAPI React
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-📋 Clinical Note Simplifier
-nlp
-Transforms dense clinical notes into patient-friendly language with before/after readability scoring.
-Python FastAPI Groq
-</td>
-<td width="50%" valign="top">
-🗂️ Insurance Claims ETL Pipeline
-data engineering
-CMS Medicare data → star-schema SQLite warehouse → interactive analytics dashboard.
-Python SQLite Streamlit
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-🩺 Patient Intake Summarization
-agentic ai · multi-agent systems
-Multi-agent pipeline that transforms raw patient intake submissions into structured clinician summaries. Routes incomplete intakes to a flagged path listing missing fields — skipping symptom organization entirely.
-Python Strands Agents Ollama
-</td>
-<td width="50%" valign="top">
-🚛 Voice Fleet Assistant
-voice ai · agentic ai
+
+**🤖 [Voice Fleet Assistant](https://github.com/sanskritim05/medical-literature-research-agent)**
+`voice ai` 
+
 Browser-based voice assistant for truck drivers to report maintenance issues, get safety guidance, and notify dispatch. Falls back to local rule-based logic if the LLM is unavailable.
-Python FastAPI Groq ElevenLabs
+
+`Python` `ElevenLabs` `FastAPI` `Groq`
+
 </td>
 </tr>
+
 <tr>
 <td width="50%" valign="top">
-💄 Sephora Skincare Sentiment Analysis
-nlp
+
+**🧠 [IntelSwarm](https://github.com/sanskritim05/IntelSwarm)**
+`agentic ai` · `multi-agent systems`
+
+Multi-agent swarm that generates company intelligence reports across product, hiring, funding, news, and culture using parallel specialist agents.
+
+`Python` `FastAPI` `Strands Agents` `Ollama` `React`
+
+</td>
+<td width="50%" valign="top">
+
+**🤖 [Medical Literature Research Agent](https://github.com/sanskritim05/medical-literature-research-agent)**
+`agentic ai`
+
+Ask a clinical question and get a sourced, confidence-scored answer pulled from PubMed and ClinicalTrials.gov.
+
+`Python` `LangGraph` `FastAPI` `Groq`
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+**🏠 [Real Estate RAG Assistant](https://github.com/sanskritim05/real-estate-rag-assistant)**
+`rag`
+
+Upload a real estate PDF, ask anything, and get answers back with exact page citations.
+
+`Python` `LangChain` `ChromaDB` `React`
+
+</td>
+<td width="50%" valign="top">
+
+**🏥 [Clinical Risk Prediction](https://github.com/sanskritim05/clinical-risk-prediction-calibrated)**
+`ml`
+
+30-day hospital readmission risk model with calibrated probabilities and SHAP explainability.
+
+`Python` `Scikit-learn` `FastAPI` `React`
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+**📋 [Clinical Note Simplifier](https://github.com/sanskritim05/clinical-note-simplifier)**
+`nlp`
+
+Transforms dense clinical notes into patient-friendly language with before/after readability scoring.
+
+`Python` `FastAPI` `Groq`
+
+</td>
+<td width="50%" valign="top">
+
+**🗂️ [Insurance Claims ETL Pipeline](https://github.com/sanskritim05/insurance-claims-etl-pipeline)**
+`data engineering`
+
+CMS Medicare data → star-schema SQLite warehouse → interactive analytics dashboard.
+
+`Python` `SQLite` `Streamlit`
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+**💄 [Sephora Skincare Sentiment Analysis](https://github.com/sanskritim05/sephora-skincare-reviews-sentiment-worth-it-analysis)**
+`nlp`
+
 Sentiment analysis with Bayesian smoothing and a custom "Worth It Score" across thousands of product reviews.
-Python NLP Jupyter
+
+`Python` `NLP` `Jupyter`
+
 </td>
 <td width="50%" valign="top">
-🗺️ Landmark Classification for Social Media
-computer vision
+
+**🗺️ [Landmark Classification for Social Media](https://github.com/sanskritim05/landmark-classification-tagging-for-social-media-project)**
+`computer vision`
+
 CNN-based landmark classifier for images without GPS metadata.
-Python PyTorch
+
+`Python` `PyTorch`
+
 </td>
 </tr>
+
 <tr>
 <td width="50%" valign="top">
-📱 OnceUponAMood
-ios
+
+**📱 [OnceUponAMood](https://github.com/sanskritim05/OnceUponAMood)**
+`ios`
+
 Mood-based journaling app that recommends movies and music based on how you're feeling.
-Swift CoreML
+
+`Swift` `CoreML`
+
 </td>
 <td width="50%" valign="top"></td>
 </tr>
+
 </table>
 
 ---
