@@ -21,8 +21,8 @@ Multi-agent pipeline that transforms raw patient intake submissions into structu
 </td>
 <td width="50%" valign="top">
 
-**🤖 [Voice Fleet Assistant](https://github.com/sanskritim05/medical-literature-research-agent)**
-`voice ai` 
+**🤖 [Voice Fleet Assistant](https://github.com/sanskritim05/voice-fleet-assistant)**
+`voice ai` · `agentic ai`
 
 Browser-based voice assistant for truck drivers to report maintenance issues, get safety guidance, and notify dispatch. Falls back to local rule-based logic if the LLM is unavailable.
 
