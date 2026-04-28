@@ -13,9 +13,7 @@
 
 **🩺 [Patient Intake Summarization](https://github.com/sanskritim05/patient-intake-summarization)**
 `agentic ai` · `multi-agent systems`
-
 Multi-agent pipeline that parses patient intake submissions into structured clinician summaries. Incomplete intakes are flagged and routed, skipping symptom organization.
-
 `Python` `Strands Agents` `Ollama`
 
 </td>
