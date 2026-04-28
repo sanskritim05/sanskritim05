@@ -11,20 +11,20 @@
 <tr>
 <td width="50%" valign="top">
 
-**🧠 [Patient Intake Summarization](https://github.com/sanskritim05/patient-intake-summarization)**
+**🩺 [Patient Intake Summarization](https://github.com/sanskritim05/patient-intake-summarization)**
 `agentic ai` · `multi-agent systems`
 
-Multi-agent pipeline that transforms raw patient intake submissions into structured clinician summaries. Routes incomplete intakes to a flagged path listing missing fields, skipping symptom organization entirely.
+Multi-agent pipeline that parses patient intake submissions into structured clinician summaries. Incomplete intakes are flagged and routed, skipping symptom organization.
 
 `Python` `Strands Agents` `Ollama`
 
 </td>
 <td width="50%" valign="top">
 
-**🤖 [Voice Fleet Assistant](https://github.com/sanskritim05/voice-fleet-assistant)**
+**🚛 [Voice Fleet Assistant](https://github.com/sanskritim05/voice-fleet-assistant)**
 `voice ai` · `agentic ai`
 
-Browser-based voice assistant for truck drivers to report maintenance issues, get safety guidance, and notify dispatch. Falls back to local rule-based logic if the LLM is unavailable.
+Voice assistant for truck drivers to report maintenance issues, get safety guidance, and notify dispatch. Falls back to rule-based logic if the LLM is unavailable.
 
 `Python` `ElevenLabs` `FastAPI` `Groq`
 
