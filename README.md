@@ -123,20 +123,6 @@ CNN-based landmark classifier for images without GPS metadata.
 </td>
 </tr>
 
-<tr>
-<td width="50%" valign="top">
-
-**📱 [OnceUponAMood](https://github.com/sanskritim05/OnceUponAMood)**
-`ios`
-
-Mood-based journaling app that recommends movies and music based on how you're feeling.
-
-`Swift` `CoreML`
-
-</td>
-<td width="50%" valign="top"></td>
-</tr>
-
 </table>
 
 ---
