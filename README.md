@@ -10,119 +10,83 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-
-**🩺 [Patient Intake Summarization](https://github.com/sanskritim05/patient-intake-summarization)**
-`agentic ai` · `multi-agent systems`
-
+🗳️ Sync
+real-time · full-stack
+Create a voting session, share the link, and watch votes roll in live. A 3-2-1 countdown reveals the winner with a full breakdown — ties broken by a coin flip. No account needed.
+React TypeScript Vite Supabase TailwindCSS
+</td>
+<td width="50%" valign="top">
+🩺 Patient Intake Summarization
+agentic ai · multi-agent systems
 Multi-agent pipeline that parses patient intake submissions into structured clinician summaries. Incomplete intakes are flagged and routed, skipping symptom organization.
-
-`Python` `Strands Agents` `Ollama`
-
+Python Strands Agents Ollama
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-
-**🚛 [Voice Fleet Assistant](https://github.com/sanskritim05/voice-fleet-assistant)**
-`voice ai` · `agentic ai`
-
+🚛 Voice Fleet Assistant
+voice ai · agentic ai
 Voice assistant for truck drivers to report maintenance issues, get safety guidance, and notify dispatch. Falls back to rule-based logic if the LLM is unavailable.
-
-`Python` `ElevenLabs` `FastAPI` `Groq`
-
+Python ElevenLabs FastAPI Groq
 </td>
-</tr>
-
-<tr>
 <td width="50%" valign="top">
-
-**🧠 [IntelSwarm](https://github.com/sanskritim05/IntelSwarm)**
-`agentic ai` · `multi-agent systems`
-
+🧠 IntelSwarm
+agentic ai · multi-agent systems
 Multi-agent swarm that generates company intelligence reports across product, hiring, funding, news, and culture using parallel specialist agents.
-
-`Python` `FastAPI` `Strands Agents` `Ollama` `React`
-
+Python FastAPI Strands Agents Ollama React
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-
-**🤖 [Medical Literature Research Agent](https://github.com/sanskritim05/medical-literature-research-agent)**
-`agentic ai`
-
+🤖 Medical Literature Research Agent
+agentic ai
 Ask a clinical question and get a sourced, confidence-scored answer pulled from PubMed and ClinicalTrials.gov.
-
-`Python` `LangGraph` `FastAPI` `Groq`
-
+Python LangGraph FastAPI Groq
 </td>
-</tr>
-
-<tr>
 <td width="50%" valign="top">
-
-**🏠 [Real Estate RAG Assistant](https://github.com/sanskritim05/real-estate-rag-assistant)**
-`rag`
-
+🏠 Real Estate RAG Assistant
+rag
 Upload a real estate PDF, ask anything, and get answers back with exact page citations.
-
-`Python` `LangChain` `ChromaDB` `React`
-
+Python LangChain ChromaDB React
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-
-**🏥 [Clinical Risk Prediction](https://github.com/sanskritim05/clinical-risk-prediction-calibrated)**
-`ml`
-
+🏥 Clinical Risk Prediction
+ml
 30-day hospital readmission risk model with calibrated probabilities and SHAP explainability.
-
-`Python` `Scikit-learn` `FastAPI` `React`
-
+Python Scikit-learn FastAPI React
 </td>
-</tr>
-
-<tr>
 <td width="50%" valign="top">
-
-**📋 [Clinical Note Simplifier](https://github.com/sanskritim05/clinical-note-simplifier)**
-`nlp`
-
+📋 Clinical Note Simplifier
+nlp
 Transforms dense clinical notes into patient-friendly language with before/after readability scoring.
-
-`Python` `FastAPI` `Groq`
-
-</td>
-<td width="50%" valign="top">
-
-**🗂️ [Insurance Claims ETL Pipeline](https://github.com/sanskritim05/insurance-claims-etl-pipeline)**
-`data engineering`
-
-CMS Medicare data → star-schema SQLite warehouse → interactive analytics dashboard.
-
-`Python` `SQLite` `Streamlit`
-
+Python FastAPI Groq
 </td>
 </tr>
-
 <tr>
 <td width="50%" valign="top">
-
-**💄 [Sephora Skincare Sentiment Analysis](https://github.com/sanskritim05/sephora-skincare-reviews-sentiment-worth-it-analysis)**
-`nlp`
-
-Sentiment analysis with Bayesian smoothing and a custom "Worth It Score" across thousands of product reviews.
-
-`Python` `NLP` `Jupyter`
-
+🗂️ Insurance Claims ETL Pipeline
+data engineering
+CMS Medicare data → star-schema SQLite warehouse → interactive analytics dashboard.
+Python SQLite Streamlit
 </td>
 <td width="50%" valign="top">
-
-**🗺️ [Landmark Classification for Social Media](https://github.com/sanskritim05/landmark-classification-tagging-for-social-media-project)**
-`computer vision`
-
-CNN-based landmark classifier for images without GPS metadata.
-
-`Python` `PyTorch`
-
+💄 Sephora Skincare Sentiment Analysis
+nlp
+Sentiment analysis with Bayesian smoothing and a custom "Worth It Score" across thousands of product reviews.
+Python NLP Jupyter
 </td>
 </tr>
-
+<tr>
+<td width="50%" valign="top">
+🗺️ Landmark Classification for Social Media
+computer vision
+CNN-based landmark classifier for images without GPS metadata.
+Python PyTorch
+</td>
+<td width="50%" valign="top"></td>
+</tr>
 </table>
 
 ---
