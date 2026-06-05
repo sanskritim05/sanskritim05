@@ -12,7 +12,7 @@
 <td width="50%" valign="top">
 
 **[Sync](https://github.com/sanskritim05/sync)**
-`full-stack` · 
+`full-stack`  
 
 Create a voting session, share the link, and watch votes roll in live. A 3-2-1 countdown reveals the winner with a full breakdown, ties broken by a coin flip. No account needed.
 
@@ -20,7 +20,8 @@ Create a voting session, share the link, and watch votes roll in live. A 3-2-1 c
 </td>
 <td width="50%" valign="top">
 
-**[Portfoliot](https://github.com/sanskritim05/portfolio)**
+**[Portfolio](https://github.com/sanskritim05/portfolio)**
+
 Portfolio page
 
 </td>
