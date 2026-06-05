@@ -11,7 +11,25 @@
 <tr>
 <td width="50%" valign="top">
 
-**🩺 [Patient Intake Summarization](https://github.com/sanskritim05/patient-intake-summarization)**
+**[Sync](https://github.com/sanskritim05/sync)**
+`full-stack` · 
+
+Create a voting session, share the link, and watch votes roll in live. A 3-2-1 countdown reveals the winner with a full breakdown, ties broken by a coin flip. No account needed.
+
+`React` `TypeScript` `Vite` `Supabase` `TailwindCSS`
+</td>
+<td width="50%" valign="top">
+
+**[Portfoliot](https://github.com/sanskritim05/portfolio)**
+Portfolio page
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+**[Patient Intake Summarization](https://github.com/sanskritim05/patient-intake-summarization)**
 `agentic ai` · `multi-agent systems`
 
 Multi-agent pipeline that parses patient intake submissions into structured clinician summaries. Incomplete intakes are flagged and routed, skipping symptom organization.
@@ -21,7 +39,7 @@ Multi-agent pipeline that parses patient intake submissions into structured clin
 </td>
 <td width="50%" valign="top">
 
-**🚛 [Voice Fleet Assistant](https://github.com/sanskritim05/voice-fleet-assistant)**
+**[Voice Fleet Assistant](https://github.com/sanskritim05/voice-fleet-assistant)**
 `voice ai` · `agentic ai`
 
 Voice assistant for truck drivers to report maintenance issues, get safety guidance, and notify dispatch. Falls back to rule-based logic if the LLM is unavailable.
@@ -34,7 +52,7 @@ Voice assistant for truck drivers to report maintenance issues, get safety guida
 <tr>
 <td width="50%" valign="top">
 
-**🧠 [IntelSwarm](https://github.com/sanskritim05/IntelSwarm)**
+**[IntelSwarm](https://github.com/sanskritim05/IntelSwarm)**
 `agentic ai` · `multi-agent systems`
 
 Multi-agent swarm that generates company intelligence reports across product, hiring, funding, news, and culture using parallel specialist agents.
@@ -44,7 +62,7 @@ Multi-agent swarm that generates company intelligence reports across product, hi
 </td>
 <td width="50%" valign="top">
 
-**🤖 [Medical Literature Research Agent](https://github.com/sanskritim05/medical-literature-research-agent)**
+**[Medical Literature Research Agent](https://github.com/sanskritim05/medical-literature-research-agent)**
 `agentic ai`
 
 Ask a clinical question and get a sourced, confidence-scored answer pulled from PubMed and ClinicalTrials.gov.
@@ -57,7 +75,7 @@ Ask a clinical question and get a sourced, confidence-scored answer pulled from 
 <tr>
 <td width="50%" valign="top">
 
-**🏠 [Real Estate RAG Assistant](https://github.com/sanskritim05/real-estate-rag-assistant)**
+**[Real Estate RAG Assistant](https://github.com/sanskritim05/real-estate-rag-assistant)**
 `rag`
 
 Upload a real estate PDF, ask anything, and get answers back with exact page citations.
@@ -67,7 +85,7 @@ Upload a real estate PDF, ask anything, and get answers back with exact page cit
 </td>
 <td width="50%" valign="top">
 
-**🏥 [Clinical Risk Prediction](https://github.com/sanskritim05/clinical-risk-prediction-calibrated)**
+**[Clinical Risk Prediction](https://github.com/sanskritim05/clinical-risk-prediction-calibrated)**
 `ml`
 
 30-day hospital readmission risk model with calibrated probabilities and SHAP explainability.
@@ -80,7 +98,7 @@ Upload a real estate PDF, ask anything, and get answers back with exact page cit
 <tr>
 <td width="50%" valign="top">
 
-**📋 [Clinical Note Simplifier](https://github.com/sanskritim05/clinical-note-simplifier)**
+**[Clinical Note Simplifier](https://github.com/sanskritim05/clinical-note-simplifier)**
 `nlp`
 
 Transforms dense clinical notes into patient-friendly language with before/after readability scoring.
@@ -90,7 +108,7 @@ Transforms dense clinical notes into patient-friendly language with before/after
 </td>
 <td width="50%" valign="top">
 
-**🗂️ [Insurance Claims ETL Pipeline](https://github.com/sanskritim05/insurance-claims-etl-pipeline)**
+**[Insurance Claims ETL Pipeline](https://github.com/sanskritim05/insurance-claims-etl-pipeline)**
 `data engineering`
 
 CMS Medicare data → star-schema SQLite warehouse → interactive analytics dashboard.
