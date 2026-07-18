@@ -1,6 +1,6 @@
 # Hi, I'm Sanskriti 👋
 
-> CS + Cognitive Science @ Rutgers 
+> CS + Cognitive Science @ Rutgers grad, Incoming MS @ Cornell Tech
 > I'm drawn to the overlap between AI and healthcare, building systems that make clinical information more accessible, interpretable, and useful. Most of my work lives at the intersection of agentic AI, RAG pipelines, and NLP.
 
 ---
