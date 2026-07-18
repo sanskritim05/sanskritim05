@@ -20,12 +20,14 @@ Create a voting session, share the link, and watch votes roll in live. A 3-2-1 c
 </td>
 <td width="50%" valign="top">
 
-**[Portfolio](https://github.com/sanskritim05/portfolio)**
+**[Munchly](https://munchly10.vercel.app)**
+`full-stack`
 
-Portfolio page
+Hot or Not for food photos. Post a plate, swipe Hot or Not, and get a live 0–10 score. Follow people, climb the weekly Top board, and get AI taste picks based on what you’ve rated.
+
+`Next.js` `TypeScript` `Supabase` `TailwindCSS` `Framer Motion` `Groq`
 
 </td>
-</tr>
 
 <tr>
 <td width="50%" valign="top">
