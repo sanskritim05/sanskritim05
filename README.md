@@ -1,4 +1,4 @@
-# Hi, I'm Sanskriti 👋
+# Hi, I'm Sanskriti!
 
 > MS in Information Science + Information Systems @ Cornell Tech · CS + Cognitive Science @ Rutgers
 >
@@ -6,7 +6,7 @@
 
 ---
 
-## 🩺 Featured Projects
+## Featured Projects
 
 <table>
 <tr>
@@ -83,7 +83,7 @@ Voice agent for truck drivers with tool calling and a deterministic safety floor
 
 - **[IntelSwarm](https://github.com/sanskritim05/IntelSwarm)**: Hierarchical multi-agent swarm that turns a company name into a competitive intelligence briefing, with quality scoring and automatic reruns. `Strands Agents` `Groq` `React`
 - **[Real Estate RAG Assistant](https://github.com/sanskritim05/real-estate-rag-assistant)**: Upload a real estate PDF, ask anything, and get answers with exact page citations. `LangChain` `ChromaDB` `React`
-- **[Munchly](https://munchly10.vercel.app)** ([live demo](https://munchly10.vercel.app)): Hot or Not for food photos, with live 0–10 scores, weekly leaderboards, and AI taste picks. `Next.js` `Supabase` `Groq`
+- **[Munchly](https://munchly10.vercel.app)**: Hot or Not for food photos, with live 0–10 scores, weekly leaderboards, and AI taste picks. `Next.js` `Supabase` `Groq`
 - **[Sync](https://github.com/sanskritim05/sync)**: Real-time group voting with shareable links, a countdown reveal, and coin-flip tiebreaks. No account needed. `React` `Supabase`
 
 ---
