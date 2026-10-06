@@ -130,8 +130,8 @@ CMS Medicare data → star-schema SQLite warehouse → interactive analytics das
 
 | Year | Organization | Role | Highlight |
 |------|-------------|------|-----------|
-| 2026 | Universal Selfcare | SWE Intern | Built backend APIs for patient/provider portals; ~30% reduction in data-entry errors |
-| 2025 | Aresty Research Center | Research Assistant | CV models predicting water quality from phone images (~90% validation accuracy) |
+| 2026 | Universal Selfcare | SWE Intern | Built backend APIs for patient/provider portals; ~50% reduction in data-entry errors |
+| 2025 | Aresty Research Center | Research Assistant | CV models predicting water quality from phone images (~96% validation accuracy) |
 | 2025 | Nestlé Americas | AI Fellow | NLP pipelines across 14M+ consumer records to surface food preference insights |
 | 2025 | Break Through Tech | AI/ML Fellow @ Cornell Tech | Applied AI and data science projects with AWS |
 | 2025 | Rutgers Food Innovation Center | Extern | Lead-scoring app that cut review time by ~60%; integrated Teams and HubSpot APIs |
