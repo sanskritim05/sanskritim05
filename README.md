@@ -1,33 +1,36 @@
 # Hi, I'm Sanskriti 👋
 
-> Currently pursuing MS in Information Science + Information Systems @ Cornell Tech, CS + Cognitive Science grad @ Rutgers
-> I'm drawn to the overlap between AI and healthcare, building systems that make clinical information more accessible, interpretable, and useful. Most of my work lives at the intersection of agentic AI, RAG pipelines, and NLP.
+> MS in Information Science + Information Systems @ Cornell Tech · CS + Cognitive Science @ Rutgers
+>
+> I build AI systems that make clinical information more accessible, interpretable, and useful, from raw healthcare data pipelines to agentic tools for clinicians and patients. Most of my work lives at the intersection of agentic AI, RAG, NLP, and healthcare ML.
 
 ---
 
-## 🛠️ Things I've Built
+## 🩺 Featured Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**[Sync](https://github.com/sanskritim05/sync)**
-`full-stack`  
+**[Medical Literature Research Agent](https://github.com/sanskritim05/medical-literature-research-agent)**
+`agentic ai` · `rag`
 
-Create a voting session, share the link, and watch votes roll in live. A 3-2-1 countdown reveals the winner with a full breakdown, ties broken by a coin flip. No account needed.
+Ask a clinical question and get a sourced, confidence-scored answer synthesized from PubMed and ClinicalTrials.gov, with inline citations.
 
-`React` `TypeScript` `Vite` `Supabase` `TailwindCSS`
+`Python` `LangGraph` `FastAPI` `Groq`
+
 </td>
 <td width="50%" valign="top">
 
-**[Munchly](https://munchly10.vercel.app)**
-`full-stack`
+**[Medicare Part D High-Spender Prediction](https://github.com/sanskritim05/medicare-drug-cost-prediction)**
+`data engineering` · `ml`
 
-Hot or Not for food photos. Post a plate, swipe Hot or Not, and get a live 0-10 score. Follow people, climb the weekly Top board, and get AI taste picks based on what you’ve rated.
+PySpark bronze/silver/gold lakehouse on CMS prescriber data, predicting next year's top 10% brand-name spenders. Benchmarked against a prior-year baseline that turned out to be nearly unbeatable.
 
-`Next.js` `TypeScript` `Supabase` `TailwindCSS` `Framer Motion` `Groq`
+`PySpark` `Databricks` `Delta Lake` `MLflow` `pytest`
 
 </td>
+</tr>
 
 <tr>
 <td width="50%" valign="top">
@@ -35,65 +38,19 @@ Hot or Not for food photos. Post a plate, swipe Hot or Not, and get a live 0-10 
 **[Patient Intake Summarization](https://github.com/sanskritim05/patient-intake-summarization)**
 `agentic ai` · `multi-agent systems`
 
-Multi-agent pipeline that parses patient intake submissions into structured clinician summaries. Incomplete intakes are flagged and routed, skipping symptom organization.
+Multi-agent pipeline that turns patient intake submissions into structured clinician summaries. Incomplete intakes are flagged and routed before symptom organization.
 
 `Python` `Strands Agents` `Ollama`
 
 </td>
 <td width="50%" valign="top">
 
-**[Voice Fleet Assistant](https://github.com/sanskritim05/voice-fleet-assistant)**
-`voice ai` · `agentic ai`
-
-Voice assistant for truck drivers to report maintenance issues, get safety guidance, and notify dispatch. Falls back to rule-based logic if the LLM is unavailable.
-
-`Python` `ElevenLabs` `FastAPI` `Groq`
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-**[IntelSwarm](https://github.com/sanskritim05/IntelSwarm)**
-`agentic ai` · `multi-agent systems`
-
-Multi-agent swarm that generates company intelligence reports across product, hiring, funding, news, and culture using parallel specialist agents.
-
-`Python` `FastAPI` `Strands Agents` `Ollama` `React`
-
-</td>
-<td width="50%" valign="top">
-
-**[Medical Literature Research Agent](https://github.com/sanskritim05/medical-literature-research-agent)**
-`agentic ai`
-
-Ask a clinical question and get a sourced, confidence-scored answer pulled from PubMed and ClinicalTrials.gov.
-
-`Python` `LangGraph` `FastAPI` `Groq`
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-**[Real Estate RAG Assistant](https://github.com/sanskritim05/real-estate-rag-assistant)**
-`rag`
-
-Upload a real estate PDF, ask anything, and get answers back with exact page citations.
-
-`Python` `LangChain` `ChromaDB` `React`
-
-</td>
-<td width="50%" valign="top">
-
 **[Clinical Risk Prediction](https://github.com/sanskritim05/clinical-risk-prediction-calibrated)**
-`ml`
+`ml` · `explainability`
 
-30-day hospital readmission risk model with calibrated probabilities and SHAP explainability.
+30-day hospital readmission risk model with calibrated probabilities, SHAP explainability, and a clinician-facing dashboard.
 
-`Python` `Scikit-learn` `FastAPI` `React`
+`Python` `Scikit-learn` `SHAP` `FastAPI` `React`
 
 </td>
 </tr>
@@ -104,25 +61,30 @@ Upload a real estate PDF, ask anything, and get answers back with exact page cit
 **[Clinical Note Simplifier](https://github.com/sanskritim05/clinical-note-simplifier)**
 `nlp`
 
-Transforms dense clinical notes into patient-friendly language with before/after readability scoring.
+Transforms dense clinical notes into patient-friendly language, with before/after readability scoring to measure the improvement.
 
 `Python` `FastAPI` `Groq`
 
 </td>
 <td width="50%" valign="top">
 
-**[Insurance Claims ETL Pipeline](https://github.com/sanskritim05/insurance-claims-etl-pipeline)**
-`data engineering`
+**[Fleet Voice](https://github.com/sanskritim05/voice-fleet-assistant)**
+`voice ai` · `agentic ai` · `llm evals`
 
-CMS Medicare data → star-schema SQLite warehouse → interactive analytics dashboard.
+Voice agent for truck drivers with tool calling and a deterministic safety floor. Evaluated on 48 scenarios including prompt injection, negation, and driver health emergencies (44/48 passed; critical misses cut from 8/27 to 1/27).
 
-`Python` `SQLite` `Streamlit`
+`Python` `FastAPI` `Groq` `Whisper` `ElevenLabs`
 
 </td>
 </tr>
-
-
 </table>
+
+### Also built
+
+- **[IntelSwarm](https://github.com/sanskritim05/IntelSwarm)**: Hierarchical multi-agent swarm that turns a company name into a competitive intelligence briefing, with quality scoring and automatic reruns. `Strands Agents` `Groq` `React`
+- **[Real Estate RAG Assistant](https://github.com/sanskritim05/real-estate-rag-assistant)**: Upload a real estate PDF, ask anything, and get answers with exact page citations. `LangChain` `ChromaDB` `React`
+- **[Munchly](https://munchly10.vercel.app)** ([live demo](https://munchly10.vercel.app)): Hot or Not for food photos, with live 0–10 scores, weekly leaderboards, and AI taste picks. `Next.js` `Supabase` `Groq`
+- **[Sync](https://github.com/sanskritim05/sync)**: Real-time group voting with shareable links, a countdown reveal, and coin-flip tiebreaks. No account needed. `React` `Supabase`
 
 ---
 
@@ -130,6 +92,7 @@ CMS Medicare data → star-schema SQLite warehouse → interactive analytics das
 
 | Year | Organization | Role | Highlight |
 |------|-------------|------|-----------|
+| 2026 | Weill Cornell Medicine | Graduate Research Assistant | Contributing to the IMEDS lab |
 | 2026 | Universal Selfcare | SWE Intern | Built backend APIs for patient/provider portals; ~50% reduction in data-entry errors |
 | 2025 | Aresty Research Center | Research Assistant | CV models predicting water quality from phone images (~96% validation accuracy) |
 | 2025 | Nestlé Americas | AI Fellow | NLP pipelines across 14M+ consumer records to surface food preference insights |
@@ -143,21 +106,29 @@ CMS Medicare data → star-schema SQLite warehouse → interactive analytics das
 **Languages**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
 
-**AI/ML & Frameworks**
+**AI/ML**
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat&logo=huggingface&logoColor=black)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat&logo=langgraph&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white)
+
+**Data & Backend**
+
+![Apache Spark](https://img.shields.io/badge/PySpark-E25A1C?style=flat&logo=apachespark&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat&logo=databricks&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat&logo=supabase&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
 
 **Cloud & Tools**
@@ -165,6 +136,7 @@ CMS Medicare data → star-schema SQLite warehouse → interactive analytics das
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 
 ---
 
@@ -172,8 +144,8 @@ CMS Medicare data → star-schema SQLite warehouse → interactive analytics das
 
 - AWS Certified AI Practitioner
 - AWS Certified Cloud Practitioner
-- Machine Learning Fundamentals Nanodegree - Udacity × AWS
-- AI Programming with Python Nanodegree - Udacity × AWS
+- Machine Learning Fundamentals Nanodegree, Udacity × AWS
+- AI Programming with Python Nanodegree, Udacity × AWS
 
 ---
 
