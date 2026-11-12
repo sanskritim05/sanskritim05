@@ -3,6 +3,8 @@
 > MS in Information Science + Information Systems @ Cornell Tech · CS + Cognitive Science @ Rutgers
 >
 > I build AI systems that make clinical information more accessible, interpretable, and useful, from raw healthcare data pipelines to agentic tools for clinicians and patients. Most of my work lives at the intersection of agentic AI, RAG, NLP, and healthcare ML.
+>
+> [https://sanskritim05.github.io/portfolio/](Portfolio Link)
 
 ---
 
